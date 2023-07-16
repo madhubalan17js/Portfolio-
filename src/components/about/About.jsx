@@ -39,10 +39,10 @@ const About = () => {
           </div>
           <div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-              fuga, eaque accusantium neque, deserunt explicabo commodi officiis
-              odio provident libero vel, placeat nostrum dolores vero laborum
-              dicta repellendus nemo ipsa.
+              As a frontend developer with experience in React, I have a strong
+              proficiency in building interactive and responsive user
+              interfaces. I specialize in developing reusable components,
+              implementing state management, and ensuring optimal performance.
             </p>
           </div>
           <a href="#!" className="btn btn-primary">

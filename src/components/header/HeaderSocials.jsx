@@ -38,7 +38,11 @@ const HeaderSocials = () => {
       >
         <ImWhatsapp />
       </a>
-      <a href="mailto:madhubalan1247@gmail.com" target="_blank">
+      <a
+        href="mailto:madhubalan1247@gmail.com"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <TfiEmail />
       </a>
     </div>
