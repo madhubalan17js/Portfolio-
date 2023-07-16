@@ -43,14 +43,16 @@ header {
 /************ ME ************/
 .me {
   background: linear-gradient(var(--color-primary), transparent);
-  width: 20rem;
+  width: 15rem;
   height: 40rem;
   position: absolute;
-  left: calc(50% - 10rem);
-  margin-top: 1rem;
+  left: calc(50% - 7.5rem);
+  margin-top: 0rem;
   border-radius: 12rem 12rem 0 0;
   overflow: hidden;
-  padding: 5rem 2rem 2rem 2rem;
+  top: 13rem;
+
+  /* padding: 5rem 2rem 2rem 2rem; */
 }
 
 /*********** SCROLL DOWN ****************/
@@ -71,7 +73,9 @@ header {
   }
 
   .me {
-    margin-top: 2rem;
+    margin-top: 4rem;
+    top: 8.7rem;
+
   }
 }
 
@@ -82,7 +86,7 @@ header {
     height: 100vh;
   }
   .me {
-    margin-top: 3rem;
+    margin-top: 8rem;
   }
   .header__socials,
   .scroll__down {

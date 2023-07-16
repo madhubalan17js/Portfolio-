@@ -82,7 +82,7 @@ const Contact = () => {
           </article>
           <article className="contact__option">
             <BsWhatsapp className="contact__icon" />
-            <h4>WhatsApp</h4>
+            <h4>WhatsApp Web</h4>
             <h5>+91 ##### #####</h5>
             <a
               href={`https://web.whatsapp.com/send?phone=${7397068019}&text=${encodeURIComponent(

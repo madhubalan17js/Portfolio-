@@ -15,16 +15,30 @@ const HeaderSocials = () => {
       >
         <BsLinkedin />
       </a>
-      <a href="#!" target="_blank">
+      <a
+        href="https://github.com/madhubalan17js"
+        target="_blank"
+        rel="noreferrer"
+      >
         <FaGithub />
       </a>
-      <a href="#!" target="_blank">
+      <a
+        href="https://instagram.com/madhu__balan?igshid=ZDc4ODBmNjlmNQ=="
+        target="_blank"
+        rel="noreferrer"
+      >
         <GrInstagram />
       </a>
-      <a href="#!" target="_blank">
+      <a
+        href={`https://web.whatsapp.com/send?phone=${7397068019}&text=${encodeURIComponent(
+          "Hi Madhu Balan....have a great day"
+        )}&app_absent=0,`}
+        target="_blank"
+        rel="noreferrer"
+      >
         <ImWhatsapp />
       </a>
-      <a href="#!" target="_blank">
+      <a href="mailto:madhubalan1247@gmail.com" target="_blank">
         <TfiEmail />
       </a>
     </div>

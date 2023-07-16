@@ -8,10 +8,10 @@ import { BiMessageSquareDetail } from "react-icons/bi"
 const Navbar = () => {
   const [activeNav, setActiveNav] = useState("#header")
 
-  // if (!window.location.reload) {
-  //   window.location.reload("#header")
-  // }
-  // // window.location.reload("#header")
+  if (!window.location.reload) {
+    window.location.reload("#header")
+  }
+  // window.location.reload("#header")
   return (
     <nav>
       <a

@@ -6,7 +6,7 @@
 
 .about__me {
   width: 100%;
-  aspect-ratio: 1/1;
+  aspect-ratio: 1.7/2.5;
   border-radius: 2rem;
   background: linear-gradient(45deg, transparent, var(--color-primary));
   display: grid;
@@ -15,6 +15,7 @@
 }
 
 .about__me-image {
+
   border-radius: 2rem;
   overflow: hidden;
   transform: rotate(15deg);
@@ -33,14 +34,14 @@
 .about__card {
   background: var(--color-bg-variant);
   padding: 1rem 2.5rem;
-  border: 1px solid transparent;
+  border: 2px solid transparent;
   border-radius: 1.5rem;
   text-align: center;
   transition: var(--transition);
 }
 .about__card:hover {
-  background: var(--color-primary);
-  border-color: whitesmoke;
+  background:transparent;
+  border-color:var(--color-primary-variant);
   cursor: default;
   backdrop-filter: blur(75%);
 }
@@ -55,7 +56,7 @@
 .about__card small,
 .about__card a {
   font-size: 0.7rem;
-  color: black !important;
+  color: rgb(197, 188, 188) !important;
   font-weight: 500;
 }
 .about__content p {
