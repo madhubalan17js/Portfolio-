@@ -1,6 +1,6 @@
 import { BsPatchCheckFill } from "react-icons/bs"
 import IMG1 from "./assets/portfolio1.jpg"
-
+import SATS from "./assets/sats.PNG"
 export const FrontEnd = [
   {
     patch: <BsPatchCheckFill className="experience__details-icon" />,
@@ -58,9 +58,9 @@ export const BackEnd = [
 
 export const PortfolioData = [
   {
-    img: IMG1,
+    img: SATS,
     title: "San Antonio Tamil Sangam",
-    para: "Working With QuasarPixels, WebApplication  and Dashboard",
+    para: "Working With QuasarPixels, WebApplication and Dashboard",
     githublink: "",
     livedemo: "https://satsweb.quasarpixels.com/",
   },

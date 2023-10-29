@@ -16,22 +16,26 @@ const Portfolio = () => {
             <h3>{item.title}</h3>
             <p>{item.para}</p>
             <div className="portfolio__link">
-              <a
-                className="btn"
-                target="_blank"
-                href={item.githublink !== "" ? item.githublink : "#!"}
-                rel="noreferrer"
-              >
-                Github
-              </a>
-              <a
-                href={item.livedemo !== "" ? item.livedemo : "#!"}
-                className="btn btn-primary"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Live Demo
-              </a>
+              {item?.githublink && (
+                <a
+                  className="btn"
+                  target="_blank"
+                  href={item.githublink !== "" ? item.githublink : "#!"}
+                  rel="noreferrer"
+                >
+                  Github
+                </a>
+              )}
+              {item?.livedemo && (
+                <a
+                  href={item.livedemo !== "" ? item.livedemo : "#!"}
+                  className="btn btn-primary"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Live Demo
+                </a>
+              )}
             </div>
           </article>
         ))}
