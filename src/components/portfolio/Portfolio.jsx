@@ -10,8 +10,8 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         {PortfolioData.map((item, ind) => (
           <article className="portfolio__items" key={ind}>
-            <div className="porfolio__item-image" key={ind}>
-              <img src={item.img} alt="project" />
+            <div className="porfolio__item-image">
+              <img src={item.img} alt="project" style={{objectFit:"cover",height:"100%"}}/>
             </div>
             <h3>{item.title}</h3>
             <p>{item.para}</p>

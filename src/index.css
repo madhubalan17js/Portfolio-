@@ -129,7 +129,7 @@ a:hover {
 .btn:hover {
   background-color: var(--color-white);
   color: var(--color-bg);
-  border-color: transparent;
+  /* border-color: transparent; */
 }
 
 .btn-primary {

@@ -15,8 +15,10 @@
   border-color: var(--color-primary-variant);
 }
 .porfolio__item-image {
-  border-radius: 1.5rem;
+  border-radius: 1rem;
   overflow: hidden;
+  height: 200px;
+
 }
 
 .portfolio__items h3 {
