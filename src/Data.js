@@ -1,6 +1,7 @@
 import { BsPatchCheckFill } from "react-icons/bs"
-import IMG1 from "./assets/portfolio1.jpg"
+import IMG1 from "./assets/Mern-stack.png"
 import SATS from "./assets/sats.PNG"
+import bootimg from "./assets/Screenshot 2023-11-16 224310.png"
 export const FrontEnd = [
   {
     patch: <BsPatchCheckFill className="experience__details-icon" />,
@@ -72,7 +73,7 @@ export const PortfolioData = [
     livedemo: "",
   },
   {
-    img: IMG1,
+    img: bootimg,
     title: " BootStrap-5",
     para: "Personal Project Responsive",
     githublink:
